@@ -1,0 +1,119 @@
+
+.card{
+    margin: 10px;
+    padding: 50px;
+}
+.navlink{
+    color: rgb(0, 0, 0);
+}
+
+.navlink:hover{
+    color:black;
+    font-weight: 900;
+}
+
+.card{
+    transition: all 2s;
+}
+
+.card:hover{
+  transform: scale(1.20);
+  
+}
+.footer-body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+       
+    
+}
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+    
+}
+.rowz{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.colz{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.logoz{
+    width: 80px;
+    margin-bottom: 10px;
+}
+.colz h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+
+ul li{
+    list-style: none;
+    margin-bottom: 20px 0;
+}
+ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+form .far{
+    font-size: 18px;
+    margin-right: 10px;
+}
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form button .fast{
+    font-size: 16px;
+    color: #ccc;
+}
+.social-icons .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: black;
+    background: white;
+    margin-right: 15px;
+    cursor: pointer;
+}

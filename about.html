@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+    crossorigin="anonymous"/>
+    <style>
+        
+        
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+    
+}
+.banner1, .banner2, .banner3,.banner4 {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+img{
+
+    width: 120%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: zoom-out 3s linear infinite;
+}
+@keyframes zoom-out {
+    100%{
+        width: 100%;
+    }
+}
+.text-box{
+    width: 600px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: #fff;
+    animation: textup 12s linear infinite;
+    transform: translate(100px);
+}
+.text-box h1{
+    margin-bottom: 40px;
+}
+.text-box p{
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 80px;
+}
+.text-box span{
+    background: red;
+    height: 1px;
+    width: 100px;
+    position: absolute;
+    left: 0;
+}
+.banner1{
+    animation: slide1 12s linear infinite;
+}
+.banner2{
+    animation: slide2 12s linear infinite;
+}
+.banner3{
+    animation: slide3 12s linear infinite;
+}
+.banner4{
+    animation: slide4 12s linear infinite;
+}
+@keyframes slide1{
+    0%{
+        visibility: visible;
+    }
+
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+@keyframes slide2{
+    0%{
+        visibility: hidden;
+    }
+
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: visible;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+@keyframes slide3{
+    0%{
+        visibility: hidden;
+    }
+
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+@keyframes slide4{
+    0%{
+        visibility: hidden;
+    }
+
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+@keyframes textup {
+    10%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+.text-box1{
+    animation-delay: 0s;
+}
+.text-box2{
+    animation-delay: 3s;
+}
+.text-box3{
+    animation-delay: 6s;
+}
+.text-box4{
+    animation-delay: 9s;
+}
+    </style>
+    
+</head>
+<body>
+    <header class="sticky-top">
+        <nav class="navbar bg-transparent navbar-expand-lg p-3">
+          <div class="container">
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link navlink fw-bold text-white" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navlink fw-bold text-white" href="gallery.html">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navlink fw-bold text-white" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navlink fw-bold text-white" href="footer.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+  
+    
+        <div class="banner1">
+            <img src="workers.jpg">
+            <div class="text-box text-box1">
+                <H1>History</H1>
+                <span></span>
+                <p>It's more than 30 years since our family started business in making Guitar, But Ukulele is always been my favorite and thats why I extend my family's business  in ukulele making and promoting to our costumers that ukulele too can perform beautifully as the standard guitar in place or stage.</p>
+            </div>
+        </div>
+        <div class="banner2">
+            <img src="workers2.jpg">
+            <div class="text-box text-box2">
+                <H1>Craftsmanship</H1>
+                <span></span>
+                <p>Our employees come from a generation of craftsmen in our town. Their skills are will develop by their family. Our place is well known of people who are the best guitar craftsmen in the country, because ever since they are still young they admire and proud of the works of from our neighborhood.</p>
+            </div>
+        </div><div class="banner3">
+            <img src="workers3.jpg">
+            <div class="text-box text-box3">
+                <H1>Goal</H1>
+                <span></span>
+                <p>Our goal is to promote and improve our product and give customer satisfaction. We will try our best to insure that every customization you desire will be available to you; our product has a 1 year warranty to assure you that it will last long. We pack our products carefully to ensure delivery safety .</p>
+            </div>
+        </div>
+        <div class="banner4">
+            <img src="lloyd1.jpg">
+            <div class="text-box text-box4">
+                <H1>Vison</H1>
+                <span></span>
+                <p>To make music matter to more people in more ways . . . by using uKulele</p>
+            </div>
+        </div>
+
+    
+
+
+</body>
+</html>
